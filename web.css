@@ -335,6 +335,11 @@ input[type=submit]:hover {
         align-items: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+    .wm {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 20px;
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -349,5 +354,19 @@ input[type=submit]:hover {
         width: 190px;
         height: 150px;
         margin: 3rem;
+    }
+}
+@media only screen and (min-width: 1500px) {
+    main {
+        display: flex;
+        padding-top: 40px;
+        max-width: 920px;
+        margin: auto;
+        justify-content: center;
+    }
+    .info {
+        max-width: 920px;
+        margin: auto;
+        padding-top: 100px;
     }
 }
