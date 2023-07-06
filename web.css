@@ -290,7 +290,7 @@ input[type=submit]:hover {
         flex-direction: column;
     }
     .review>img {
-        width: 500px;
+        width: 480px;
         height: 300px;
         margin: 3rem;
     }
@@ -298,7 +298,6 @@ input[type=submit]:hover {
         max-width: 920px;
         margin: auto;
         padding-top: 100px;
-        text-align: center;
     }
     .cscs {
         display: flex;
@@ -322,5 +321,33 @@ input[type=submit]:hover {
         margin-left: 50px;
         margin-top: 60px;
         margin-bottom: 30px;
+    }
+    .nomor {
+        border-radius: 50%;
+        color: white;
+        background-color: #20392C;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        margin-right: 25px;
+        margin-bottom: 10px;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .review>img {
+        width: 300px;
+        height: 200px;
+        margin: 3rem;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .review>img {
+        width: 190px;
+        height: 150px;
+        margin: 3rem;
     }
 }
