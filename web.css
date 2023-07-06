@@ -281,4 +281,12 @@ input[type=submit]:hover {
         border-radius: 0px 0px 0px 0px;
         border-bottom: none;
     }
+    main {
+        display: flex;
+        padding-top: 40px;
+        max-width: 920px;
+        margin: auto;
+        margin-left: 210px;
+        flex-direction: column;
+    }
 }
