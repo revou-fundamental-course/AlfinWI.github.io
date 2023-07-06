@@ -340,6 +340,11 @@ input[type=submit]:hover {
         margin-top: 20px;
         font-size: 10px;
     }
+    .cs>h3 {
+        margin-top: 9px;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -368,5 +373,13 @@ input[type=submit]:hover {
         max-width: 920px;
         margin: auto;
         padding-top: 100px;
+    }
+    .cscs {
+        display: flex;
+        padding-top: 40px;
+        max-width: 1080px;
+        margin: auto;
+        justify-content: space-between;
+        color: white;
     }
 }
