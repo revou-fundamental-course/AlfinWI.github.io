@@ -344,6 +344,7 @@ input[type=submit]:hover {
         margin-top: 9px;
         margin-bottom: 5px;
         font-size: 17px;
+        margin-left: 10px;
     }
     .cs>h1 {
         font-size: 20px;   
