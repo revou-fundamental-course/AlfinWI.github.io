@@ -337,13 +337,16 @@ input[type=submit]:hover {
     }
     .wm {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        margin-top: 20px;
+        margin-top: 4px;
         font-size: 10px;
     }
     .cs>h3 {
         margin-top: 9px;
         margin-bottom: 5px;
-        font-size: 13px;
+        font-size: 17px;
+    }
+    .cs>h1 {
+        font-size: 20px;   
     }
 }
 
